@@ -1,0 +1,153 @@
+.line{
+  height: 1px;
+  width: 314px;
+  background-color: #C9C9C9;
+  margin-top: 28px;
+}
+
+#filter{
+  width: 370px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #555555;
+  background: #FEFEFE;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  grid-column: 1 / 2;
+}
+
+#filter_header{
+  font-size: 18px;
+  margin: 26.67px 0 24.67px 29.67px;
+}
+
+#filter_price{
+  margin: 0 0 18px 28px;
+  p:nth-of-type(1){
+    margin-bottom: 24px;
+    img{
+      margin-left: 262px;
+    }
+  }
+  input{
+    width: 98px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #AAAAAA;
+    outline: none;
+    text-align: center;
+    color: #555555;
+  }
+  span:nth-of-type(1){
+    margin-right: 21px;
+  }
+  span:nth-of-type(2){
+    margin: 0 21px;
+  }
+}
+
+#price_scale{
+  margin: 34px 0 34px 27px;
+  width: 272px;
+  position: relative;
+  cursor: pointer;
+  div:nth-of-type(1){
+    height: 3px;
+    width: 48px;
+    border: 0.5px solid #C9C9C9;
+  }
+  div:nth-of-type(2){
+    height: 14px;
+    width: 14px;
+    background: #C65EA0;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: 48px;
+  }
+  div:nth-of-type(3){
+    height: 4px;
+    width: 212px;
+    background: #C65EA0;
+    position: absolute;
+    top: 0px;
+    left: 52px;
+  }
+  div:nth-of-type(4){
+    height: 14px;
+    width: 14px;
+    background: #C65EA0;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+  }
+}
+
+#filter_parameters{
+  margin: 0 0 0 28px;
+}
+
+.block_parameter{
+  position: relative;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 18px;
+  p{
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
+  img{
+    position: absolute;
+    right: 33px;
+    top: 2px;
+  }
+  ul{
+    margin-left: 0;
+    padding-inline-start: 0;
+  }
+  li{
+    list-style-type: none;
+    margin: 22px 0 14px 0;
+  }
+  label{
+    input:checked + .span1:before {
+      background: #C65EA0;
+    }
+    input{
+      position: absolute;
+	    z-index: -1;
+	    opacity: 0;
+    }
+  }
+}
+
+.span1{
+  margin: 0 7px 0 40px;
+  position: relative;
+	cursor: pointer;
+}
+
+.span1:before {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: -38px;
+	width: 13px;
+  height: 13px;
+  border: 0.5px solid #AAAAAA;
+	border-radius: 4px;
+	transition: .2s;
+}
+
+.span2{
+  color: #AAAAAA;
+}
+
+.see_all{
+  font-size: 12px;
+  line-height: 14px;
+  color: #AAAAAA;
+  margin-left: 238px;
+}
