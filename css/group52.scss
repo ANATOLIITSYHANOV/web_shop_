@@ -107,6 +107,7 @@
     font-size: 10px;
     line-height: 12px;
     color: #AAAAAA;
+    font-style: normal;
   }
 }
 
@@ -125,14 +126,14 @@
 #rise_box{
   display: none;
   z-index: 2;
-  height: 232px;
   width: 240px;
+  height: 530px;
   border-radius: 17px;
   background: #FEFEFE;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   position: absolute;
-  top: 249px;
-  left: 0px;
+  top: -50px;
+  left: 0;
   b:nth-of-type(1){
     margin: 38px 0 0 22px;
   }
@@ -169,42 +170,47 @@
 
 #likeimg{
   position: absolute;
-  top: 9px;
+  top: 307px;
   left: 34px;
 }
 
 #onlikeimg{
   display: none;
   position: absolute;
-  top: 9px;
+  top: 307px;
   left: 34px;
 }
 
 #compareimg{
   position: absolute;
-  top: 0px;
+  top: 298px;
   left: 67px;
 }
 
 #rectangleimg{
   position: absolute;
-  top: 0px;
+  top: 298px;
   left: 111px;
 }
 
 #batt_bay2{
   z-index: 2;
   position: absolute;
-  top: 9px;
-  left: 160px;
+  top: 307px;
+  left: 156px;
 }
 
 #line{
   width: 196px;
-  border: 1px solid #C9C9C9;
+  border: 0.5px solid #C9C9C9;
   position: absolute;
-  top: 59px;
+  top: -30px;
   left: 22px;
+}
+
+.div_for_b{
+  position: absolute;
+  top: -75px;
 }
 
 b{
@@ -239,6 +245,11 @@ button{
 }
 
 button:active{
+  background: #3AB1C8;
+  color: white;
+}
+
+.active_button{
   background: #3AB1C8;
   color: white;
 }
