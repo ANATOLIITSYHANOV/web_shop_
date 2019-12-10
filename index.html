@@ -3,16 +3,38 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title> WEBSHOP </title>
+  <title> JFS </title>
   <link rel="stylesheet" href="css/main.css" />
   <link rel="shortcut icon" href="favicon.png" type="image/png" />
   <meta name="viewport" content="width=device-width" />
 </head>
 
 <body>
-  <header></header>
+  <header>
+    <div class="header-block">
+      <div class="catalog">
+        <img src="img/burger.svg" alt="burger-menu">
+        <p>Каталог</p>
+      </div>
+      <img id="logo" src="img/logosvg.svg" alt="logo">
+      <div class="about">
+        <p>Акции</p>
+        <p>Клиентам</p>
+        <p>О нас</p>
+        <p>Контакты</p>
+      </div>
+      <div class="icons">
+        <img src="img/loop1.svg" alt="loop">
+        <p>Рус</p>
+        <img src="img/heart.svg" alt="heart">
+        <img src="img/compare.svg" alt="compare">
+        <img src="img/cart2.svg" alt="purchase">
+        <img src="img/user.svg" alt="profile">
+      </div>
+    </div>
+  </header>
   <main>
-    <div id="way"><a href="#">Главная</a> > Мелкая техника для кухни > <span>Микроволновые печи</span></div>
+    <div id="way"><a href="https://borissainskiy.github.io/project/">Главная</a> > Мелкая техника для кухни > <span>Микроволновые печи</span></div>
     <div id="main_container">
       <div id="filter">
         <div id="filter_header"><img src="img/Vector.png"> Фильтр </div>
@@ -596,10 +618,128 @@
           <button>></button>
         </div>
       </div>
-
     </div>
+    
+    <div id="viewed">
+      <h3>Просмотреные</h3><p class="div_viewed">Стр. 1 из 3</p>
+      <div class="product see viewed_product1">
+          <img src="img/braun_oral-b_pro-expert_a 1.png" alt="poduct" class="img_position-viewed2">
+          <p>Зубная щетка Braun Oral-B
+            </p>
+          <p> Pro-Expert</p>
+          <div class="rating">
+            <img src="img/star_color.png" alt="star">
+            <img src="img/star_color.png" alt="star">
+            <img src="img/star_color.png" alt="star">
+            <img src="img/star_color.png" alt="star">
+            <img src="img/star.png" alt="star">
+            <img src="img/vector_review.png" class="img_vector_review">
+            <i class="rating_span">5 отзывов</i>
+          </div>
+          <img src="img/butt_buy.png" class="butt_buy">
+          <p>400 грн.</p>
+        </div>
+        <div class="product see viewed_product2">
+            <img src="img/ымег-холодильник 1.png" alt="poduct" class="img_position-viewed">
+            <img src="img/label _sale.png"  class="img_position-viewed3">
+            <p class="pcenter">Холодильник SMEG </p>
+            <p> FAB28LPB3</p>
+            <div class="rating">
+              <img src="img/star_color.png" alt="star">
+              <img src="img/star_color.png" alt="star">
+              <img src="img/star_color.png" alt="star">
+              <img src="img/star_color.png" alt="star">
+              <img src="img/star.png" alt="star">
+              <img src="img/vector_review.png" class="img_vector_review">
+              <i class="rating_span">5 отзывов</i>
+            </div>
+            <img src="img/butt_buy.png" class="butt_buy">
+            <p>38 000 грн.</p>
+          </div>
+          <div class="product see viewed_product3">
+              <img src="img/утюг 1.png" alt="poduct" class="img_position-viewed2">
+              <p class="pcenter">Утюг PHILIPS Comfort</p>
+              <p>GC1433/30</p>
+              <div class="rating">
+                <img src="img/star_color.png" alt="star">
+                <img src="img/star_color.png" alt="star">
+                <img src="img/star_color.png" alt="star">
+                <img src="img/star_color.png" alt="star">
+                <img src="img/star.png" alt="star">
+                <img src="img/vector_review.png" class="img_vector_review">
+                <i class="rating_span">5 отзывов</i>
+              </div>
+              <img src="img/butt_buy.png" class="butt_buy">
+              <p>600 грн.</p>
+            </div>
+            <div class="product see viewed_product4">
+                <img src="img/стыралка-електролюкс.png" alt="poduct" class="img_position-viewed2">
+                <p>Стиральная машина ELECTROLUX </p>
+                <p>EW6S426BUI</p>
+                <div class="rating">
+                  <img src="img/star_color.png" alt="star">
+                  <img src="img/star_color.png" alt="star">
+                  <img src="img/star_color.png" alt="star">
+                  <img src="img/star_color.png" alt="star">
+                  <img src="img/star.png" alt="star">
+                  <img src="img/vector_review.png" class="img_vector_review">
+                  <i class="rating_span">5 отзывов</i>
+                </div>
+                <img src="img/butt_buy.png" class="butt_buy">
+                <p>7 500 грн.</p>
+              </div>
+              <img src="img/signmore.png" class="viewed_more">
+    </div>
+
   </main>
-  <footer></footer>
+  <footer>
+    <div class="footer-container">
+      <img src="img/ЛОГО 1.png" alt="logo">
+      <div class="footer-nav">
+        <form action="#">
+          <p>Подписаться на новости</p>
+          <input type="email" placeholder="news.jfs@example.com" name="" id="">
+        </form>
+        <div>
+          <ul>
+            <li class="ul-header">Меню</li>
+            <li>Главная</li>
+            <li>Каталог</li>
+            <li>Акции</li>
+            <li>Поддержка</li>
+            <li>Доставка и оплата</li>
+            <li>Гарантия </li>
+            <li>О нас</li>
+            <li>Контакты </li>
+          </ul>
+          <ul>
+            <li class="ul-header">Каталог</li>
+            <li>Техника для дома</li>
+            <li>Крупная техника для кухни</li>
+            <li>Мелкая техника для кухни</li>
+            <li>Климатическая техника</li>
+            <li>Техника для красоты</li>
+          </ul>
+        </div>
+
+        <p class="copy">copyright @ jfs, 2019</p>
+      </div>
+      <div class="footer-contact">
+        <p>38 080 000 00 00</p>
+        <p>38 080 000 00 01 (Служба поддержки)</p>
+        <p class="email">jfs@example.com</p>
+        <p class="addr">Украина, Винницкая обл., Винница ул. А.Пастора, 25/3 21000 </p>
+        <div class="contact-sicial">
+          <img src="img/facebook.svg" alt="facebook">
+          <img src="img/google-plus (2).png" alt="google">
+          <img src="img/linkedin (1).png" alt="linkenin">
+          <img src="img/instagram (1).png" alt="instagram">
+          <img src="img/twitter (1).png" alt="twitter">
+          <img src="img/pinterest (1).png" alt="p">
+        </div>
+      </div>
+    </div>
+  </footer>
   <script src="js/main.js"></script>
 </body>
 
