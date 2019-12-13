@@ -20,6 +20,33 @@ heart2.onclick = () => {
   heart2.style.display = 'none';
 }
 
+let samsung_checkbox = document.getElementById('samsung_checkbox');
+let samsung_img = document.getElementById('samsung_img');
+let samsung = document.getElementById('samsung');
+let line_margin = document.getElementById('line_margin');
+
+samsung_checkbox.onchange = () => {
+  if (samsung_checkbox.checked) {
+    samsung.style.display = 'block';
+    line_margin.style.display = 'block';
+  }
+  else {
+    samsung.style.display = 'none';
+    line_margin.style.display = 'none';
+  }
+}
+
+samsung_img.onclick = () => {
+  samsung.style.display = 'none';
+  line_margin.style.display = 'none';
+  samsung_checkbox.checked = false;
+}
+
+
+/**
+ * from Boris work, header.
+ */
+
 $(() => {
   let profile = $("#profile");
   let modal = $("#modal");

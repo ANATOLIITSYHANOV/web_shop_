@@ -18,7 +18,7 @@
           <img src="./img/burger.svg" alt="burger-menu">
           <p>Каталог</p>
         </div>
-        <img id="logo" src="./img/logosvg.svg" alt="logo">
+        <a href="https://borissainskiy.github.io/project/"><img id="logo" src="./img/logosvg.svg" alt="logo"></a>
         <div class="about">
           <p>Акции</p>
           <p>Клиентам</p>
@@ -78,6 +78,8 @@
       <div id="main_container">
         <div id="filter">
           <div id="filter_header"><img src="img/Vector.png"> Фильтр </div>
+          <div id="samsung"><i id="samsung_i"> SAMSUNG</i> <img src="./img/cross2.png" id="samsung_img"></div>
+          <div class="line" id="line_margin"></div>
           <div id="filter_price">
             <p>Цена <img src="img/vector-bottom.png"></p>
             <span> От</span><input type="text" placeholder="1500"><span>до</span>
@@ -95,7 +97,8 @@
               <p>Производитель <img src="img/vector-bottom.png"></p>
               <ul>
                 <li>
-                  <label> <input type="checkbox" /> <span class="Span1">SAMSUNG</span>
+                  <label> <input type="checkbox" checked  id="samsung_checkbox"/> 
+                    <span class="Span1">SAMSUNG</span>
                     <span class="Span2">(27)</span></label>
                 </li>
                 <li>
@@ -332,6 +335,7 @@
               <option value="value3">по убиванию цены</option>
               <option value="value4">по возростанию цены</option>
             </select>
+            <a id="rectangle"></a>
             <span>Только в наличии</span>
             <span>На странице:</span>
             <select name="sort">

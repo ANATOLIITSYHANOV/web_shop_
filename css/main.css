@@ -208,8 +208,8 @@ header .nav-catalog {
     border-radius: 17px;
     padding-top: 35px;
     position: absolute;
-    left: 150px;
-    top: 120px;
+    left: 110px;
+    top: 70px;
     z-index: 1;
 }
 
@@ -783,8 +783,37 @@ footer .footer-contact .contact-sicial img:not(:last-child) {
     margin: 26.67px 0 24.67px 29.67px;
 }
 
+#line_margin {
+    margin-left: 29px;
+}
+
+#samsung {
+    width: 98px;
+    height: 30px;
+    background: #FEFEFE;
+    border: 1px solid #AAAAAA;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 23px 0 28px 30px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #AAAAAA;
+}
+
+#samsung_i {
+    display: inline-block;
+    margin: 8px 9px 0 11px;
+    font-style: normal;
+}
+
+#samsung_img {
+    cursor: pointer;
+}
+
 #filter_price {
-    margin: 0 0 18px 28px;
+    margin: 17px 0 18px 28px;
 }
 
 #filter_price p:nth-of-type(1) {
@@ -992,6 +1021,17 @@ footer .footer-contact .contact-sicial img:not(:last-child) {
 
 #group_52 div select:nth-of-type(2) {
     width: 57px;
+}
+
+#rectangle {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: #F1F1F1;
+    border-radius: 4px;
+    position: absolute;
+    left: 302px;
+    top: 39px;
 }
 
 .img_grid_position {
@@ -1220,6 +1260,7 @@ body {
     max-width: 1170px;
     margin: 0 auto;
     margin-bottom: 20px;
+    margin-top: 23px;
 }
 
 #way a {

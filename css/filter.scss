@@ -21,8 +21,36 @@
   margin: 26.67px 0 24.67px 29.67px;
 }
 
+#line_margin{
+  margin-left: 29px;
+}
+
+#samsung{
+  width: 98px;
+  height: 30px;
+  background: #FEFEFE;
+  border: 1px solid #AAAAAA;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 23px 0 28px 30px;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #AAAAAA
+}
+
+#samsung_i{
+  display: inline-block;
+  margin: 8px 9px 0 11px;
+  font-style: normal;
+}
+
+#samsung_img{
+  cursor: pointer;
+}
+
 #filter_price{
-  margin: 0 0 18px 28px;
+  margin: 17px 0 18px 28px;
   p:nth-of-type(1){
     margin-bottom: 24px;
     img{
